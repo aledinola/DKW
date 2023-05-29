@@ -1,0 +1,10 @@
+TYPE_OF_BUSINESS, OVERHEAD, RENT, COST_OF_SALES, PAYROLL, YEARLY_REVENUE
+"Building services",40.54%, 2.42%, 42.51%, 25.34%, 613611
+"Software publishers", 68.98%, 3.13%, 27.44%, 42.98%, 16362639
+"Offices of physicians", 70.39%, 5.73%, 2.43%, 46.19%, 1527644
+"Legal Services", 65.92%, 5.97%, 4.96%, 45.03%, 1296535
+"Accounting",66.92%, 6.58%, 5.75%, 42.35%, 1156000
+"Restaurants", 44.55%, 6.79%, 40.48%, 27.30%, 873550
+"Clothing stores", 36.31%, 7.51%, 55.83%, 16.49%, 1089545
+"Bars", 39.03%, 8.68%, 41.36%, 19.51%, 390377
+"Child day care services", 72.97%, 13.19%, 3.79%, 50.77%, 395221

@@ -1,0 +1,5 @@
+--------------------------
+CEV: grant vs. no grant 
+Baseline grant: 0.007897 
+Targeted grant: 0.004422 
+--------------------------

@@ -1,0 +1,13 @@
+--------------------------
+Zombie firms analysis:  
+Impact period only 
+Baseline grant 
+Fraction of saved firms: 0.471302 
+Fraction of zombie firms: 0.013477 
+Targeted grant 
+Fraction of saved firms: 0.685014 
+Fraction of zombie firms: 0.003567 
+Large Targeted grant 
+Fraction of saved firms: 0.878745 
+Fraction of zombie firms: 0.014484 
+--------------------------

@@ -1,0 +1,27 @@
+PARAMETER 
+eta_i         :    0.120000 
+v_small       :    -1.000000 
+v_small_unimp :    -0.000000 
+v_corp        :    -0.007000 
+util_shift    :    -0.184299 
+lsupply_shift :    0.249982 
+lambda_shift  :    -0.158000 
+mass_shift  :    0.240000 
+rho_shock     :    0.110000 
+ 
+MOMENT 
+Change in GDP q1                   :    -10.897601 
+Change in GDP q2                   :    -2.473827 
+Change in consumption              :    -9.801839 
+Change in investment               :    -16.523091 
+Change in small firms output       :    -15.845212 
+Change in employment q1            :    -11.706573 
+Change in employment q2            :    -2.469800 
+Change in employment small q1      :    -16.213191 
+Change in employment small q2      :    -8.353699 
+Change in employment corp q1       :    -7.636497 
+Change in employment corp q2       :    2.844144 
+Change in small firm exit q1       :    37.745879 
+Change in small firm exit, annual  :    -6.167647 
+Change in small firm entry, q1  :    -12.171143 
+Total grant amount                 :    0.025826 
