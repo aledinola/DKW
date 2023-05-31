@@ -5,14 +5,13 @@ Authors: Alessandro Di Nola, Leo Kaas, Haomin Wang.
 *** Notes on SOFTWARE, OPERATING SYSTEM, and COMPUTATION TIME ***
 *********************************************************************************************************
 - All programs were run on Windows 10 on a computer with Intel-core-i7 CPU 3.00 GHz and 64 GB RAM.
-- Matlab codes are run in Matlab R2022b and make of the following Matlab toolboxes: 
+- Matlab codes are run in Matlab R2022b and make use of the following Matlab toolboxes: 
   Parallel Computing Toolbox
   Optimization Toolbox
   Global Optimization Toolbox
 - A few subroutines are coded in Fortran and compiled using the MEX utility in Matlab. 
 - The Fortran codes make use of the OpenMP library. 
-- The runtime for the code in the folder Matlab was of about 37 seconds for the steady-state version of the model, 
-  and about 3 hours for the transition after a pandemic shock. 
+- The runtime for the code in the folders containing Matlab codes (baseline, conditional and alternative) was of about 37 seconds for the steady-state version of the model, and about 3 hours for the transition after a pandemic shock. 
 
 ************************* DATA ********************
 Folder "Data" contains public data and codes to compute moments and other statistics. 
