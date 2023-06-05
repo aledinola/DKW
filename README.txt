@@ -23,13 +23,14 @@ Data sources:
 4) Business expense data: see folder "other_data". The data are downloaded from https://washingtonpost.com/wp-srv/special/business/costofrunningabusiness.html.
 5) Small firm output data: see folder "other_data". The data are from Bloom, Fletcher and Yeh (2021) "The Impact of COVID-19" on US Firms."
 6) Kauffman Firm Survey. We use KFS confidential microdata file. To access the dataset, an application is required to be made to the Kauffman Foundation. See link: https://www.kauffman.org/entrepreneurship/research/kauffman-firm-survey/.
+7) BED: see subfolder "BED". Raw data are downloaded from https://data.bls.gov/. 
 
 Code to create moments and other statistics
-1) Run prog/main.do in STATA to generate moments and statistics. Outputs are stored in subfolder "moments."
+1) Run prog/main.do in STATA to generate moments and statistics. The program uses raw data saved in subfolders SUSB, BDS, FRED and other_data as well as statistics computed based on the KFS data. Outputs are stored in subfolder "moments."
 	- data_moments.txt: a text file containing data targets for the steady state calibration.
 	- FRED_Graphs and FRED_Graphs_ee are Figures 1a and 1b in the paper.
-2) The program prog/main.do uses raw data saved in subfolders SUSB, BDS, FRED and other_data as well as statistics computed based on the KFS data. 
-Since the KFS data is confidential, we provide only the STATA code that is used to generate the KFS moments. See file "prog/main_KFS.do."
+Note that since the KFS data is confidential, we provide only the STATA code that is used to generate the KFS moments. See file "prog/main_KFS.do."
+2) The spreadsheet "Entry-exit.xlsx" in subfolder "BED" contains calculations of the pandemic impact on business entry and exit rates. 
 
 
 ************************* MAIN RESULTS (Baseline grant, laissez-faire, targeted grant) ********************
@@ -164,6 +165,5 @@ In Hwan Jo & Tatsuro Senga (2019).
 Computer Codes 17-402, Review of Economic Dynamics.
 
 John D'Errico (2023). fminsearchbnd, fminsearchcon (https://www.mathworks.com/matlabcentral/fileexchange/8277-fminsearchbnd-fminsearchcon), MATLAB Central File Exchange. Retrieved May 29, 2023.
-
 
 
